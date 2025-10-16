@@ -178,6 +178,7 @@ if not st.session_state["history"].empty:
             labels={"id": "Query ID", "total_tokens": "Total Tokens"},
             hover_data=['prompt']
         )
+        fig_total.update_xaxes(tickmode='linear', dtick=1)
         st.plotly_chart(fig_total, use_container_width=True)
 
     with c2:
