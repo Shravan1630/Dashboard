@@ -9,13 +9,11 @@ import plotly.express as px
 US_GRID_CO2_FACTOR = 0.4  # kg CO₂ per kWh (approx. US average)
 
 MODEL_ENERGY_FACTORS = {
-    "deepseek/deepseek-r1-distill-llama-70b:free": 8.5,
-    "openai/gpt-oss-20b:free": 2.71,
+    "openai/gpt-oss-20b:free": 3.71,
     "google/gemma-3n-e4b-it:free": 0.95,
-    "meta-llama/llama-4-maverick:free": 6.2,
-    "mistralai/mistral-small-24b-instruct-2501:free": 3.8,
-    "qwen/qwen3-14b:free": 2.2,
-    "meta-llama/llama-4-scout:free": 2.5,
+    "meta-llama/llama-3.3-70b-instruct:free": 6.2,
+    "mistralai/mistral-7b-instruct:free": 2.8,
+    "x-ai/grok-4.1-fast:free": 5.5,
     "default": 2.56  # Add a default value
 }
 
